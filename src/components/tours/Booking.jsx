@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import * as tourApi from "../api/tour/tour";
-import { bookTour } from "../store/booking/actions";
+import * as tourApi from "../../api/tour/tour";
+import { bookTour } from "../../store/booking/actions";
 
 export default function Booking() {
     const { id } = useParams();
